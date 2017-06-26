@@ -41,11 +41,6 @@ h1 {
 	margin-left: 50px;
 }
 
-
-.clearfix {
-	clear: both;
-}
-
 footer {
 	text-align: center;
 }
@@ -53,11 +48,13 @@ footer {
 section {
 	padding: 10px;
 	border: 1px solid #242424;
-	width: 300px;
-	height: 400px;
-	margin: 200px 500px;
-	font-size: 10px;
+	margin: 170px 500px;
 }
+
+#naslov {
+	margin: 5px 0px;
+}
+
 
 i {
 	float: right;
@@ -65,34 +62,44 @@ i {
 
 #opis {
 	padding: 5px;
-	width: 300px;
-	height: 200px;
-	margin: 5px 0px;
-	font-size: 10px;
+	width: auto;
+	height: auto;
+	margin: 5px;
+	
 }
- img {
+
+img {
+	padding: 10px;
  	float: right;
- 	height: 200px;
- 	width: 150px;
- 	padding: 5px;
- }
- h5 {
- 	padding-top: 5px;
- }
+ 	height: 50%;
+ 	width: 50%;
 
- table {
- 	width: 100%;
- }
+}
 
- #tabela {
-	width: 300px;
-	height: 200px;
+#tekst {
+	margin: 5px;
+	width: 50%;
+	height:50%;
+	font-size: 12px;
+
+}
+
+#tabela {
+ 	width: auto;
+	height: auto;
 	margin: 5px 0px;
-	font-size: 10px;
- }
+	font-size: 12px;
+
+}
+
+table {
+	width: 100%;
+}
+
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
 th {
 	border-right: 1px solid #242424;
 }
