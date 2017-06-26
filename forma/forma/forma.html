@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Forma</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Source+Code+Pro" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+	<!-- Navigacija i logo -->
+		<nav>
+			<h1>Logo</h1>
+			<ul id="navbar">
+				<li class="nav"><a href="#home">Home</a></li>
+				<li class="nav"><a href="#blog">Blog</a></li>
+				<li class="nav"><a href="#kontakt">Kontakt</a></li>
+			</ul>
+			<div class="clearfix"></div>
+		</nav>
+	</header>
+	<!-- Polje za unos podataka korisnika -->
+	<form action="" method="">
+		<div>
+			<label for="Ime-i-prezime">Ime i prezime:</label>
+			<input class="typeFields" type="text" name="Ime-i-prezime" placeholder="Pera Perić" required>
+		</div>
+		<div>
+			<label for="Pol">Odaberite pol:</label>
+			<ul>
+				<li><input type="radio" name="pol" value="ženski">Ženski</li>
+				<li><input type="radio" name="pol" value="muški">Muški</li>
+			</ul>
+		</div>
+		<div>
+			<label for="Email">Unesite imejl:</label>
+			<input class="typeFields" type="email" name="imejl" placeholder="peraperic@mail.com" required>
+		</div>
+		<div>
+			<label for="Telefon">Unesite telefon:</label>
+			<input class="typeFields" type="number" name="Telefon" placeholder="+381060123456" value="broj-telefona">
+		</div>
+		<div>
+			<label for="komentar">Unesite komentar:</label>
+			<textarea class="typeFields" type="textarea" name="komentar" placeholder="Komentar..." value="komentar"></textarea>
+		</div>
+		<div>
+			<label for="promocija">Dodatne pogodnosti:</label>
+			<ul>	
+				<li><input type="checkbox" name="pogodnosti" value="Newsletter">Newsletter</li>
+				<li><input type="checkbox" name="pogodnosti" value="Free mug">Free Mug</li>
+				<li><input type="checkbox" name="pogodnosti" value="Free hug">Free Hug</li>
+			</ul>
+		</div>
+		<hr>
+		<div>
+			<input id="dugme" type="submit" name="posalji" value="Pošalji">
+		</div>
+	</form>
+	<!-- Logo firme -->
+	<footer>Logo&copy; 2017.</footer>
+</body>
+</html>
